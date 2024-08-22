@@ -31,6 +31,7 @@ const quizData = [
     d: "none of the above",
     correct: "b",
   },
+  {
    question: "Who is came from manargudi?",
     a: "Visha"
     b: "sivaganesh",
