@@ -33,7 +33,7 @@ const quizData = [
   },
   {
    question: "Who is came from manargudi?",
-    a: "Visha"
+    a: "Visha",
     b: "sivaganesh",
     c: "yogesh",
     d: "none of the above",
