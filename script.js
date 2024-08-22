@@ -31,6 +31,13 @@ const quizData = [
     d: "none of the above",
     correct: "b",
   },
+   question: "Who is came from manargudi?",
+    a: "Visha"
+    b: "sivaganesh",
+    c: "yogesh",
+    d: "none of the above",
+    correct: "c",
+  },
 ];
 
 const quiz = document.getElementById("quiz");
@@ -72,7 +79,7 @@ loadQuiz();
 submitButton.addEventListener("click", () => {
   const answer = getSelected();
   if (answer) {
-    if (answer === quizData[currentQuiz].correct) score++;
+    if (answer === quizData[currentQuiz].correct) score+=20;
     currentQuiz++;
     if (currentQuiz < quizData.length) loadQuiz();
     else {
