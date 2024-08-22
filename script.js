@@ -81,7 +81,7 @@ submitButton.addEventListener("click", () => {
   const answer = getSelected();
   if (answer) {
     if (answer === quizData[currentQuiz].correct) score+=20;
-    currentQuiz+=20;
+    currentQuiz++;
     if (currentQuiz < quizData.length) loadQuiz();
     else {
       quiz.innerHTML = `
